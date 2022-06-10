@@ -3,7 +3,7 @@
 ## Introduction
 An environment written in System Verilog to verify a dual port RAM module. The environment consists of a generator, driver, monitor, reference board, and score board. Read and write operations have their own driver and monitor. An interface, and multiple mail boxes are used for communication with the DUT and among the components. The whole environment is OOP based.
 
-![/assets/PICS/RAM_Archi.jpg]
+![RAM_ARCHITECTURE](PICS/RAM_Archi.jpg)
 
 ## Transition class 
 This class is resposible to carry read-write adderesses & data, reset, constraints, and enable signal. The mail boxes uses this class to carry information between components and interface.
