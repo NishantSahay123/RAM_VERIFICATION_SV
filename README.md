@@ -12,7 +12,7 @@ This class is responsible for generating random adderess and data to write in. T
 ## Drivers
 Two drivers are used in this environment. The write driver takes the generated data from the mailbox and puts it into the interface. The interface gives the value to the DUT. The read driver gets the generated data from mailbox and puts it into the interface.
 
-## Monitor
+## Monitors
 Two monitors are used in this environment. One for write, which consists of two mailboxes, one takes the value from the interface, the other supplies it to the reference model. And the other one for read, this also consists of two mailboxes, one takes the values from the interface, the other gives it the score board.
 
 ## Reference Model
