@@ -5,10 +5,10 @@ An environment written in System Verilog to verify a dual port RAM module. The e
 
 <center><img src="PICS/RAM_Archi.jpg" width="500"></center>
 
-## Transition class 
+## Transition
 This class is resposible to carry read-write adderesses & data, reset, constraints, and enable signal. The mail boxes uses this class to carry information between components and interface.
 
-## Generator Class
+## Generator
 This class is responsible for generating random adderess and data to write in. The generated data is put into two mailboxes, one goes into the write driver, the other goes into the read driver.
 
 ## Drivers
