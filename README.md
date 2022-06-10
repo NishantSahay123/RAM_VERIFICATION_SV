@@ -1,4 +1,4 @@
-# RAM_VERIFICATION_SV
+# RAM VERIFICATION IN SYSTEM VERILOG
 
 ## Introduction
 An environment written in System Verilog to verify a dual port RAM module. The environment consists of a generator, driver, monitor, reference board, and score board. Read and write operations have their own driver and monitor. An interface, and multiple mail boxes are used for communication with the DUT and among the components. The whole environment is OOP based.
