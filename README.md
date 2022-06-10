@@ -26,6 +26,10 @@ The score board compares the values from local memory to the values in read moni
 ## Simulation
 There are two files to run the simulation in QustaSim. The run_simu.do is for QuestaSim 10.0b. The run_simu2.do is for later versions of QuestaSim. 
 
+<center><img src="PICS/wave.png" width="500"></center>
+
+<center><img src="PICS/Transcript.png" width="500"></center>
+
 ## Test Cases
 Five test cases are written for this project. Test case names are as follows **RAM_write_read** , **RAM_write** , **RAM_read_reset** , **RAM_write_reset** , and **RAM_write_read_reset** .
 
